@@ -1,10 +1,16 @@
-
 import './App.css';
+import React, { Component } from 'react'
+import News from './components/News';
 
-function App() {
-  return (
-    <></>
-  );
+
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <News/>
+      </div>
+    )
+  }
 }
 
-export default App;
